@@ -38,30 +38,32 @@ syntax:
     available: y
   - id: footnotes
     available: p
-    notes: "In code editor only. Comprehensive support requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: heading-ids
     available: p
-    notes: "Does not support custom IDs. Comprehensive support requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: definition-lists
     available: p
     notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: strikethrough
-    available: p
-    notes: "Two tildes (`~~word~~`) only."
+    available: y
   - id: task-lists
     available: p
-    notes: "One of the many readily available extensions can add this feature, e.g. [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+    notes: "Requires one of the many readily available extensions, e.g. [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: emoji-cp
     available: y
   - id: emoji-sc
     available: p
     notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: highlight
-    available: n
+    available: p
+    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: subscript
-    available: n
+    available: p
+    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: superscript
-    available: n
+    available: p
+    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -88,14 +90,14 @@ It does not support WYSIWIG editing. While Visual Studio Code does not come with
 
 Markdown extensions available in the Visual Studio marketplace extend it with the following features:
 
-* Extended syntax (e.g. "Markdown Extended")
-* Markdown code formatting (e.g. "Prettier - Code formatter")
-* Exporting to other formats (e.g. "Markdown Preview Enhanced")
-* UI elements (e.g. "Markdown Shortcuts")
-* Extended markdown syntax highlighting (e.g. "One Dark Pro")
-* Linting (e.g. "markdownlint") – It is a feature for developers but a huge annoyance for ordinary writers
-* Style-compliance kits for different services (e.g. "Docs Authoring Pack" for Microsoft Docs)
-* Spelling check (e.g. "Code Spell Checker")
+* Extended syntax (e.g. the "Markdown Extended" extension)
+* Markdown code formatting (e.g. the "Prettier - Code formatter" extension)
+* Exporting to other formats (e.g. the "Markdown Preview Enhanced" extension)
+* UI elements (e.g. the "Markdown Shortcuts" extension)
+* Extended markdown syntax highlighting (e.g. the "One Dark Pro" extension)
+* Linting (e.g. the "markdownlint" extension) – It is a feature for developers but a huge annoyance for ordinary writers
+* Style-compliance kits for different services (e.g. the "Docs Authoring Pack" extension for Microsoft Docs)
+* Spelling check (e.g. the "Code Spell Checker" extension)
 
 {% include image.html file="/assets/images/tools/vscode-extended.png" alt="Visual Studio Code, with Markdown Preview Enhanced, Markdownlint, and One Dark Pro" lazy="yes" %}
 
